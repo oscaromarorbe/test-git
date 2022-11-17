@@ -1,0 +1,82 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px;
+    list-style: none;
+}
+
+ul li {
+    background-color: burlywood;
+    padding: 60px 80px;
+    /* min-width: 90px; */
+    border: 2px solid red;
+}
+
+/* ul li:hover {
+    background-color: burlywood;
+    padding: 60px 80px;
+    /* min-width: 60px;
+    border: 2px solid red;
+    font-size: larger;
+    /* object-position: center; 
+} */
+
+#home:hover {
+    background-image: url(r.gif);
+    background-position: center center;
+
+}
+
+#about {
+    padding: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+#about:hover {
+    padding: 1rem;
+    display: none;
+    width: 2rem;
+    height: 2rem;
+}
+
+#tuoba {
+    padding: 1rem;
+    display: none;
+    width: 2rem;
+    height: 2rem;
+}
+
+/* #tuoba:hover {
+    padding: 1rem;
+    display: inherit;
+    width: 2rem;
+    height: 2rem;
+} */
+
+li:hover {
+    width: 100%;
+    transition: 3s;
+}
+#contact {
+    font-size: 30px;
+}
+
+#contact:hover::after  {
+    content: " como estas";
+    transition: 2s;
+}
+
+ul li div {
+
+}
+
+ul li div {
+    /* left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+    /* position: absolute;
+     */
+}
